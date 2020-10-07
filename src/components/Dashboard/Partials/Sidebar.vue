@@ -28,10 +28,10 @@
           <!-- Nav items -->
           <ul class="navbar-nav accordion" role="tablist">
             <li class="nav-item">
-              <a class="nav-link active" href="#navbar-dashboards" v-b-toggle.navbar-dashboards role="button" data-toggle="collapse" aria-expanded="true" aria-controls="navbar-dashboards">
+              <span class="nav-link active" v-b-toggle.navbar-dashboards role="button" data-toggle="collapse" aria-expanded="true" aria-controls="navbar-dashboards">
                 <i class="ni ni-shop text-primary"></i>
                 <span class="nav-link-text">Dashboards</span>
-              </a>
+              </span>
               <b-collapse id="navbar-dashboards" visible accordion="my-accordion" role="tabpanel">
                 <ul class="nav nav-sm flex-column">
                   <li class="nav-item">
@@ -44,10 +44,10 @@
               </b-collapse>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#navbar-examples" v-b-toggle.navbar-dashboards data-toggle="collapse" aria-expanded="false" aria-controls="navbar-examples">
+              <span class="nav-link" v-b-toggle.navbar-examples data-toggle="collapse" aria-expanded="false" aria-controls="navbar-examples">
                 <i class="ni ni-ungroup text-orange"></i>
                 <span class="nav-link-text">Examples</span>
-              </a>
+              </span>
               <b-collapse id="navbar-examples" accordion="my-accordion" role="tabpanel">
                 <ul class="nav nav-sm flex-column">
                   <li class="nav-item">
@@ -72,10 +72,10 @@
               </b-collapse>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#navbar-tables" data-toggle="collapse" v-b-toggle.navbar-tables role="button" aria-expanded="false" aria-controls="navbar-tables">
+              <span class="nav-link" data-toggle="collapse" v-b-toggle.navbar-tables role="button" aria-expanded="false" aria-controls="navbar-tables">
                 <i class="ni ni-align-left-2 text-default"></i>
                 <span class="nav-link-text">Tables</span>
-              </a>
+              </span>
               <b-collapse id="navbar-tables" accordion="my-accordion" role="tabpanel">
                 <ul class="nav nav-sm flex-column">
                   <li class="nav-item">

@@ -1,5 +1,13 @@
 
-.collapsed > .when-opened,
-:not(.collapsed) > .when-closed {
-  display: none;
+
+:focus {
+  outline: none;
+}
+
+#top-navbar {
+  .dropdown-menu.show {
+    top: auto !important;
+    left: auto !important;
+    right: 0px !important;
+  }
 }
