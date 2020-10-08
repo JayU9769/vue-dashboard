@@ -1,6 +1,6 @@
 <template>
   <!-- Topnav -->
-  <nav class="navbar navbar-top navbar-expand navbar-dark bg-primary border-bottom">
+  <nav class="navbar navbar-top navbar-expand navbar-dark border-bottom">
     <div class="container-fluid">
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <!-- Search form -->
@@ -36,7 +36,7 @@
           </li>
           <li class="nav-item dropdown">
             <span class="nav-link" @mouseenter="notificationPanel = true" @mouseleave="notificationPanel = false" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              <i class="ni ni-bell-55"></i>
+              <i class="ni ni-bell-55 text-primary"></i>
             </span>
             <div class="dropdown-menu dropdown-menu-xl dropdown-menu-right  py-0 overflow-hidden" @mouseenter="notificationPanel = true" @mouseleave="notificationPanel = false"  :class="notificationPanel ? 'show' : ''">
               <!-- Dropdown header -->
@@ -155,7 +155,7 @@
                     <img alt="Image placeholder" src="@/assets/img/theme/team-4.jpg">
                   </span>
                   <div class="media-body ml-2 d-none d-lg-block">
-                    <span class="mb-0 text-sm  font-weight-bold text-white">John Snow</span>
+                    <span class="mb-0 text-sm  font-weight-bold ">John Snow</span>
                   </div>
                 </div>
               </template>

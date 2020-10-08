@@ -7,10 +7,10 @@
   >
     <div class="scrollbar-inner">
       <!-- Brand -->
-      <div class="sidenav-header  d-flex  align-items-center">
-        <a class="navbar-brand" href="../../../index.html">
-          <img src="@/assets/img/brand/dark.svg" height="40" class="navbar-brand-img" alt="...">
-        </a>
+      <div class="sidenav-header d-flex align-items-center">
+        <router-link class="navbar-brand" :to="{ name: 'dashboard' }">
+          <img src="@/assets/img/brand/vue-logo.png" class="navbar-brand-img" alt="...">
+        </router-link>
         <div class=" ml-auto ">
           <!-- Sidenav toggler -->
           <div class="sidenav-toggler d-none d-xl-block" data-action="sidenav-unpin" @click="navbar = !navbar" data-target="#sidenav-main">

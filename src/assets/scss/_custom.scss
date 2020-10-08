@@ -1,8 +1,9 @@
+$custom-border-radius: 25px;
 
-
-:focus {
-  outline: none;
+body {
+  background-color: #fff !important;
 }
+
 
 #top-navbar {
   .dropdown-menu.show {
@@ -10,4 +11,38 @@
     left: auto !important;
     right: 0px !important;
   }
+}
+
+.sub-main-content {
+  border-radius: $custom-border-radius;
+  background-color: #f8f9ff;
+  margin: 25px 25px 25px 0px;
+  box-shadow: inset 0 0 2rem 0 rgba(136, 152, 170, 0.15);
+}
+
+.card {
+  border-radius: $custom-border-radius !important;
+  overflow: hidden;
+}
+
+.btn-rounded, .cs-border-radius {
+  border-radius: $custom-border-radius !important;
+  overflow: hidden;
+}
+
+.navbar-vertical .navbar-brand-img, .navbar-vertical .navbar-brand > img {
+  max-height: 4rem !important;
+}
+
+
+.navbar-search-light .input-group {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  border-bottom: 1px solid $gray-500;
+  border-radius: 0;
+}
+
+:focus {
+  outline: none;
 }

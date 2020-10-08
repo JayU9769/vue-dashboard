@@ -6,10 +6,10 @@
 .navbar-vertical {
     padding-top: 0;
     border-width: 0 0 1px 0;
-    border-style: solid;
-    @if $enable-shadows {
+    //border-style: solid;
+    /*@if $enable-shadows {
         box-shadow: $navbar-vertical-box-shadow;
-    }
+    }*/
 
     // Navbar light
 
